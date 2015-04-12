@@ -4,10 +4,181 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="fonts/Fira/fira.css">
 	<link rel="stylesheet" type="text/css" href="bower/normalize.css/normalize.css">
 </head>
 <body>
-<h1>Второй заголовок</h1>
+	<!-- [if lt IE 7] >
+	<p class="browsehappy">Ваш браузер <strong>устарел</strong>. Пожалуйста <a href="http://browsehappy.com">обновите</a> его.</p>
+	<! [endif]-->
+	
+	<!-- Тело основного сайта -->
+	<div class="wrapper">
+		<!-- Основной Контент -->
+		<div class="main-content">
+		
+			<!-- Хедер -->
+			<header class="header">
+				<div class="cont-header">
+					
+					<!-- Логотип -->
+					<a href="#" class="header-logo">
+						<img src="/img/logo.png" alt="logo" class="logo-img">
+						<span class="header-logo-text">Сайт портфолио</span>
+					</a>
+
+					<!-- Иконки хедера -->
+					<ul class="soc">
+						<li class="soc-item">
+							<a href="#" target="_blank" class="soc tw">Twitter</a>
+						</li>
+						<li class="soc-item">
+							<a href="#" target="_blank" class="soc tw">Facebook</a>
+						</li>
+						<li class="soc-item">
+							<a href="#" target="_blank" class="soc gh">Github</a>
+						</li>
+					</ul>
+					<!-- Иконки хедера - конец -->
+				
+				</div>
+			</header>
+			<!-- Хедер - конец -->
+			<!-- Контент -->
+			<div class="cont">
+				<!-- Левый сайдбар -->
+					<aside class="sidebar">
+						<!-- Навигация -->
+							<nav class="navigation">
+								<ul class="navigation-list">
+									<li class="navigation-item">
+										<a href="#" class="navigation-link">Обо мне</a>
+									</li>
+									<li class="navigation-item">
+										<a href="#" class="navigation-link">Мои работы</a>
+									</li>
+									<li class="navigation-item">
+										<a href="#" class="navigation-link">Связаться со мной</a>
+									</li>
+								</ul>
+							</nav>
+						<!-- Навигация -конец -->
+						
+						<!-- Контакты -->
+						<adress class="contacts">
+							<div class="contact-header">
+								<span class="header-inner-text">Контакты</span>
+							</div>
+							<ul class="contacts-list">
+								<li class="contacts-item mail">
+									<a href="mailto:deni.ottoy@gmail.com" class="contact-link mail-link">deni.ottoy@gmail.com</a>
+								</li>
+								<li class="contacts-item phone">
+									<a href="tel:+79296813425" class="contact-link phone-link">+79296813425</a>
+								</li>
+								<li class="contacts-item skype">
+									<a href="skype:skype_natanielloa?chat" class="contact-link skype-link">natanielloa</a>
+								</li>
+							</ul>
+						</adress>
+						<!-- Контакты -конец -->
+					</aside>
+				<!-- Левый сайдбар -конец -->
+				<!-- Контент описания профиля -->
+					<div class="main-content">
+					
+					<!-- Основная информация -->
+						<section class="info">
+							<div class="info-header">Основная информация</div>
+							<div class="info-body">
+								<div class="image-photo">
+									<div class="image-photo-st">
+										<img src="img/my-photo.jpg" alt="Наталья Тюляндина" class="photo-st">
+									</div>
+								</div>
+								<!-- Описание -->
+									<ul class="work-list">
+										<!-- Меня зовут -->
+										<li class="work-item clearfix">
+											<div class="work-up">Меня зовут:</div>
+											<div class="work-info">Тюляндина Наталья</div>
+										</li>
+										<!-- Мой город -->
+										<li class="work-item clearfix">
+											<div class="work-up">Мой город:</div>
+											<div class="work-info">Москва</div>
+										</li>
+										<!-- Моя специализация -->
+										<li class="work-item clearfix">
+											<div class="work-up">Моя специализация:</div>
+											<div class="work-info">дизайнер</div>
+										</li>
+										<!-- Ключевые навыки -->
+										<li class="work-item clearfix">
+											<div class="work-up">Ключевые навыки:</div>
+											<div class="work-info skills">
+												<ul class="skill-list">
+													<li class="skill-item">html</li>
+													<li class="skill-item">css</li>
+													<li class="skill-item">javascript</li>
+													<li class="skill-item">gulp</li>
+													<li class="skill-item">git</li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+									<!-- Описание -конец -->
+
+							</div>
+						</section>
+						<!-- Опыт работы -->
+						<section class="info">
+							<div class="info-header">Опыт работы</div>
+							<div class="info-body">
+								<ul class="info-list">
+									<li class="info-item icon-port">
+										<div class="where">"IT-компания" - шеф дизайн-бюро</div>
+										<div class="period">Май 2013 - по настоящее время</div>
+									</li>
+									<li class="info-item icon-port">
+										<div class="where">OOO "Мануфактура"</div>
+										<div class="period">Май 2009 - февраль 2013</div>
+									</li>
+								</ul>
+
+							</div>
+						</section>
+						<!-- Образование -->
+						<section class="info">
+							<div class="info-header">Образование</div>
+							<div class="info-body">
+								<ul class="info-list">
+									<li class="info-item icon-col">
+										<div class="where">Незаконченное высшее. СПБГУ ИТМО
+										</div>
+										<div class="period">Октябрь 2012 - по настоящее время</div>
+									</li>
+									<li class="info-item icon-col">
+										<div class="where">Курсы Loftschool.ru</div>
+										<div class="period">Ноябрь 2014 - по настоящее время</div>
+									</li>
+								</ul>
+							</div>
+						</section>
+						
+
+					</div>
+				<!-- Контент описания профиля -конец -->
+			</div>
+			<!-- Контент -конец -->
+		</div>
+
+	</div>
+	<!-- Тело основного сайта - конец -->
+	<!-- Футер -->
+	<footer class="page-footer">
+		<div class="copyright">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</div>
+	</footer>
 
 <script type="text/javascript" src="bower/jquery/dist/jquery.js"></script>
 <script type="text/javascript" src="js/main.js"></script>

@@ -1,0 +1,50 @@
+@import url(fira.css);
+
+html, body {
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+}
+
+h1 {
+
+}
+h2 {
+
+ }
+
+h3 {
+
+ }
+
+p {
+
+}
+
+.header {
+	background-color: #eff3f7;
+	width: 100%;
+	height: 119px;
+}
+
+.header-logo {
+
+}
+
+.header-logo-text {
+	visibility: hidden;
+}
+
+/* Футер */
+.page-footer {
+	background-color: #eff3f7;
+	width: 100%;
+	height: 78px;
+}
+
+.copyright {
+	font-size: 13px;
+	font-family: 'fira_sansultralight', Verdana, sans-serif;
+	padding-top: 30px;
+	text-align: center;
+
+}
