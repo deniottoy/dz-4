@@ -1,0 +1,52 @@
+/* Меню */
+
+.navigation {
+	position: relative;
+	width: 250px;
+	margin-bottom: 20px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #eff3f7;
+	overflow: hidden;
+	font-family: 'firasans-book';
+	}
+
+.navigation-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation .navigation-link {
+	display: block;
+	font-size: 20px;
+	text-decoration: none;
+	color: #959aa8;
+	margin-left: 16px;
+	padding: 20px 0; 
+}
+
+.navigation .navigation-item {
+	border-bottom: 2px solid #3ba8c0;
+	margin: 0 11px;
+}
+
+.navigation .navigation-item:last-child {
+	border-bottom: none;
+}
+.navigation .navigation-item.current {
+	background: #3ba8c0;
+	margin: 0;
+	border-bottom: none;
+	padding-left: 11px;
+}
+
+.navigation .navigation-item:first-child {
+	margin-top: 0;
+}
+
+.navigation .navigation-item.current .navigation-link {
+	font-size: 22px;
+	color: #fff;
+}

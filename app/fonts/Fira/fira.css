@@ -19,7 +19,7 @@
 }
 
 @font-face {
-    font-family: 'fira_sanseight';
+    font-family: 'fira_sanslight';
     src: url('firasans-eight.eot');
     src: url('firasans-eight.eot?#iefix') format('embedded-opentype'),
          url('firasans-eight.woff') format('woff'),
@@ -29,7 +29,7 @@
 }
 
 @font-face {
-    font-family: 'fira_sanseight_italic';
+    font-family: 'fira_sanslight_italic';
     src: url('firasans-eightitalic.eot');
     src: url('firasans-eightitalic.eot?#iefix') format('embedded-opentype'),
          url('firasans-eightitalic.woff') format('woff'),

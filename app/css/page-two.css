@@ -1,0 +1,120 @@
+/* Основной контент */
+.project {
+	background: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 26px;
+	height: 839px;
+
+}
+
+.project .project-header {
+	font-size: 27px;
+	color: #3ba8c0;
+	border-bottom: 2px solid #3ba8c0;
+	margin: 0 0 23px 0;
+	padding:13px 23px;
+	display: inline-block;
+
+}
+
+.project-body {
+	padding-bottom: 40px;
+}
+
+/* Галерея проектов */
+
+.project .project-gallery-list {
+	margin-left: 25px;
+	padding: 0;	
+}
+
+.project .project-gallery-item {
+	list-style: none;
+	font-family: 'fira_sanslight';
+	color: #4a545d;
+	font-size: 15px;
+	width: 181px;
+	display: inline-block;
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 40px;
+	text-align: center;
+	position: relative;
+}
+
+.project .project-gallery-item:last-child {
+	margin-bottom: 0;
+} 
+
+.project-gallery-pic {
+	width: 181px;
+	height: 127px;
+}
+
+/* Картинка */
+
+ img.project-gallery-pic{
+	border-radius: 4px;
+	border: 2px solid #3ba8c0;	
+}
+
+ .project-gallery-pic:hover{
+	border-radius: 4px;
+	border: 2px solid #3ba8c0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	background: #000;
+}
+
+/* Ссылка сайта */
+
+.project .project-site {
+	font-family:'fira_sanslight_italic';
+	font-size: 13px; 
+	color:#3ba8c0;
+	padding:0;
+	text-decoration: none;
+}
+
+/* Текст */
+
+.project .project-text  {
+	display: block;
+	font-size: 15px;
+	line-height: 1.2;
+	padding-top: 5px;
+	margin: 0;
+}
+
+
+/* Очищение float */
+
+.project:before, .clearfix:before,
+.project:after, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.project:after, .clearfix:after {
+	clear: both; /* Отменяет обтекание элемента одновременно с правого и левого края. Это значение рекомендуется устанавливать, когда требуется снять обтекание элемента, но неизвестно точно с какой стороны. */ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

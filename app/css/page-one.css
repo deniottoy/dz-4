@@ -1,0 +1,173 @@
+/* Основной контент */
+.info {
+	background: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 26px;
+
+}
+
+.info .info-header {
+	font-size: 27px;
+	color: #3ba8c0;
+	border-bottom: 2px solid #3ba8c0;
+	margin: 0 0 23px 0;
+	padding:13px 23px;
+	display: inline-block;
+
+}
+
+.info-body {
+	padding-bottom: 40px;
+}
+
+/* Основная информация */
+
+.image-photo {
+	margin-top: 18px;
+	margin-left: 52px;
+	float: left;
+}
+
+.image-photo-st {
+	width: 142px;
+	height: 142px;
+	border-radius: 50% 50%;
+	overflow: hidden;
+	border: 5px solid #3ba8c0;
+}
+
+.photo-st {
+	width: 100%;
+}
+
+.info .work-list {
+	list-style: none;
+	float: left;
+	padding: 0 0 20px 0;
+	margin-left: 22px;
+	width: 400px; 
+}
+
+.info .work-item {
+	margin-bottom: 8px;
+}
+
+.info .work-info {
+	width: 260px;
+	margin-left: 25px;
+	max-width: 260px;
+}
+
+.info .work-up {
+	font-family: 'firasans-medium';
+	color: #4a545d;
+	float: left;
+	font-size: 16px;
+}
+
+.info .work-info {
+	overflow: hidden;
+	font-size: 15px;
+	max-width: 218px;
+	padding-left: 25px;
+	font-family: 'fira_sanslight';
+}
+
+.info .work-info.skills {
+	margin-left: 25px;
+}
+
+.info .skill-list {
+	list-style: none;
+	padding: 0;
+	width: 226px;
+}
+
+.info .skill-item {
+	margin-right: 6px;
+	margin-bottom: 6px;
+	display: inline-block;
+	background: #d2d2d2;
+	padding: 2px 7px;
+	border-radius: 2px;
+	color:white;
+	line-height: 1.2;
+	min-width: 40px;
+	text-align: center;
+	font-size: 14px;
+	background-image: -webkit-linear-gradient(top, #3ba8c0 47%, #2e8ca2 48%);
+	background-image: -moz-linear-gradient(top, #3ba8c0 47%, #2e8ca2 48%);
+	background-image: -o-linear-gradient(top, #3ba8c0 47%, #2e8ca2 48%);
+	background-image: -ms-linear-gradient(top, #3ba8c0 47%, #2e8ca2 48%);
+	background-image: linear-gradient(to bottom, #3ba8c0 47%, #2e8ca2 48%); /* к сожалению не могу поставить градиент, так как сервис не работает */
+}
+
+/* Опыт работы и образование*/
+
+.info .info-list {
+	list-style: none;
+	padding: 0 0 0 50px;
+	margin: 0;
+}
+
+.info .info-item {
+	padding: 0 0 0 76px;
+	margin-bottom: 20px;
+}
+
+.info .info-item:last-child {
+	margin-bottom: 0; /* убираем нижний отступ последнего блока списка */
+}
+
+.info .info-item .where {
+	font-family: 'fira_sansbook';
+	font-size: 16px;
+}
+
+.info .info-item .period {
+	font-family: 'fira_sanslight';
+	font-size: 15px;
+	line-height: 1;
+}
+
+.info-item.icon-port {
+	background: url(../img/job.png) 9px center no-repeat;
+}
+
+.info-item.icon-col {
+	background: url(../img/uch.png) 9px center no-repeat;
+}
+
+.info-item.icon-curs {
+	background: url(../img/curs.png) 17px center no-repeat;
+}
+
+
+
+
+/* Основная информация -конец */
+
+.info:before, .clearfix:before,
+.info:after, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.info:after, .clearfix:after {
+	clear: both; /* Отменяет обтекание элемента одновременно с правого и левого края. Это значение рекомендуется устанавливать, когда требуется снять обтекание элемента, но неизвестно точно с какой стороны. */ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
