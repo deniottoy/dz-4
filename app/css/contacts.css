@@ -1,0 +1,242 @@
+/* Основной контент */
+.contacts-content {
+	background: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 26px;
+	font-family: 'fira_sansultralight';
+	height: 100%;
+
+}
+
+.contacts-content .contacts-header {
+	font-size: 27px;
+	color: #fff;
+	border-bottom: 17px solid #67dffa;
+	padding:42px 23px;
+	background: #48cbe8;
+	text-align: center;
+}
+
+.contacts-body {
+	padding-bottom: 40px;
+}
+
+.contact-form{ 
+	padding: 0; 
+	width: 403px;
+	margin: 40px auto 190px auto ;
+}
+
+.contact-form form .name {
+	float: left;
+	margin-bottom: 8px;
+}
+
+.contact-form form .email {
+	float: right;
+	margin-bottom: 8px;
+}
+
+.contact-form form .input-field {
+	width: 174px; 
+	padding: 11px 8px; 
+	color: #48cbe8;  
+	background: #fff; 
+	border: 1px solid #48cbe8;
+	font-size: 13px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	float: right;
+}
+
+.contact-form form textarea {
+	padding: 11px 8px; 
+	color: #48cbe8;  
+	background: #fff; 
+	border: 1px solid #48cbe8;
+	font-size: 13px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width: 388px;
+}
+
+.contact-form label {
+	color: #959aa8;
+	font-size: 19px;
+}
+
+.contact-form form .submit-btn {  
+	-moz-border-radius: 5px;
+	font-size: 12px;
+	-webkit-border-radius:5px;
+	float:left;
+	padding:2px 20px;
+	font-family:'fira_sansbook';
+	margin-top:34px;
+	color:#fff;
+	background-color:#48cbe8;
+	border-radius:5px;
+	border-bottom:4px solid #3ba8c0;
+}
+
+/* Основной контент */
+.contacts-content {
+	background: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 26px;
+	font-family: 'fira_sansultralight';
+	height: 100%;
+
+}
+
+.contacts-content .contacts-header {
+	font-size: 27px;
+	color: #fff;
+	border-bottom: 17px solid #67dffa;
+	padding:42px 23px;
+	background: #48cbe8;
+	text-align: center;
+	font-size: 27px;
+
+}
+
+.contacts-body {
+	padding-bottom: 40px;
+}
+
+.contact-form{ 
+	padding: 0; 
+	width: 403px;
+	margin: 40px auto 190px auto ;
+}
+
+.contact-form form .name {
+	float: left;
+	margin-bottom: 8px;
+}
+
+.contact-form form .email {
+	float: right;
+	margin-bottom: 8px;
+}
+
+.contact-form form .input-field {
+	width: 174px; 
+	padding: 11px 8px; 
+	color: #48cbe8;  
+	background: #fff; 
+	border: 1px solid #48cbe8;
+	font-size: 13px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	float: right;
+}
+
+.contact-form form textarea {
+	padding: 11px 8px; 
+	color: #48cbe8;  
+	background: #fff; 
+	border: 1px solid #48cbe8;
+	font-size: 13px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width: 388px;
+}
+
+.contact-form label {
+	color: #959aa8;
+	font-size: 19px;
+}
+
+.contact-form form .submit-btn {  
+	-moz-border-radius: 5px;
+	font-size: 19px;
+	-webkit-border-radius:5px;
+	float:left;
+	padding:2px 20px;
+	font-family:'fira_sansbook';
+	margin-top:34px;
+	color:#fff;
+	background-color:#48cbe8;
+	border-radius:5px;
+	border-bottom:4px solid #3ba8c0;
+}
+
+.contact-form form .reset-btn { 
+	background-color: #849db5; 
+	border-bottom: 4px solid #687b8f;
+	font-size: 19px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	float:right;
+	font-size: 19px;
+	padding: 2px 25px;
+	font-family: 'fira_sansbook';
+	margin-top: 34px;
+	color:#fff;
+}		
+
+
+
+
+/* Основная информация -конец */
+
+.contacts-content:before, .clearfix:before,
+.contacts-content:after, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.contacts-content:after, .clearfix:after {
+	clear: both; /* Отменяет обтекание элемента одновременно с правого и левого края. Это значение рекомендуется устанавливать, когда требуется снять обтекание элемента, но неизвестно точно с какой стороны. */ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Основная информация -конец */
+
+.contacts-content:before, .clearfix:before,
+.contacts-content:after, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.contacts-content:after, .clearfix:after {
+	clear: both; /* Отменяет обтекание элемента одновременно с правого и левого края. Это значение рекомендуется устанавливать, когда требуется снять обтекание элемента, но неизвестно точно с какой стороны. */ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

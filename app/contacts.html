@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Мои работы</title>
+	<title>Связаться со мной</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/page-two.css">
+	<link rel="stylesheet" type="text/css" href="css/contacts.css">
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
-	<link rel="stylesheet" type="text/css" href="css/modal.css">
 	<link rel="stylesheet" type="text/css" href="fonts/Fira/fira.css">
 	<link rel="stylesheet" type="text/css" href="fonts/Proxima-Nova/Proximanova.css">
 	<link rel="stylesheet" type="text/css" href="bower/normalize.css/normalize.css">
@@ -61,10 +60,10 @@
 									<li class="navigation-item">
 										<a href="index.html" class="navigation-link">Обо мне</a>
 									</li>
-									<li class="navigation-item current">
+									<li class="navigation-item">
 										<a href="project.html" class="navigation-link">Мои работы</a>
 									</li>
-									<li class="navigation-item">
+									<li class="navigation-item current">
 										<a href="contacts.html" class="navigation-link">Связаться со мной</a>
 									</li>
 								</ul>
@@ -91,82 +90,49 @@
 						<!-- Контакты -конец -->
 					</aside>
 				<!-- Левый сайдбар -конец -->
-				<!-- Контент описания профиля -->
+				<!-- Контакты -->
 					<div class="main-cont">
 					
 					<!-- Основная информация -->
-						<section class="project">
-							<div class="project-header">Мои работы</div>
-							<div class="project-body">
-								<ul class="project-gallery-list">
-									<li class="project-gallery-item">
-										<div class="caption">
-				                            <a href="#" class="pic_button">название</a>
-				                        </div>
-										<img src="img/project-01.png" alt="проект 01" class="project-gallery-pic">
-										<a href="" class="project-site">www.site.ru</a>
-										<p class="project-text">Информация о проекте 1 превью 2 строки....</p>
-									</li>
-									<li class="project-gallery-item">
-										<div class="caption">
-				                            <a href="#" class="pic_button">название</a>
-				                        </div>
-										<img src="img/project-02.png" alt="проект 01" class="project-gallery-pic">
-										<a href="" class="project-site">www.site.ru</a>
-										<p class="project-text">Информация о проекте 2 превью 2 строки....</p>
-									</li>
-									<li class="project-gallery-item">
-										<div class="caption">
-				                            <a href="#" class="pic_button">название</a>
-				                        </div>
-										<img src="img/project-03.png" alt="проект 01" class="project-gallery-pic">
-										<a href="" class="project-site">www.site.ru</a>
-										<p class="project-text">Информация о проекте 3 превью 2 строки....</p>
-									</li>
-									<li class="project-gallery-item">
-										<div class="caption">
-				                            <a href="#" class="pic_button">название</a>
-				                        </div>
-										<img src="img/project-04.png" alt="проект 01" class="project-gallery-pic">
-										<a href="" class="project-site">www.site.ru</a>
-										<p class="project-text">Информация о проекте 4 превью 2 строки....</p>
-									</li>
-									<li class="project-gallery-item">
-										<div class="project-gallery-add">
-											<a href="#add-form" class="add-popup"><p>Добавить проект</p></a>
+						<section class="contacts-content">
+							<div class="contacts-header">У нас интересный проект? Напишите мне</div>
+							<div class="contacts-body">
+								<div class="contact-form">
+									<form action="" method="post" class="form">
+										
+										<!-- Поле Имя -->
+										<div class="name">
+										<label for="name">Имя</label><br/>
+										<input type="text" id="author" class="input-field name" name="author" value="Как к вам обращаться">
+										<div class="cleaner h10"></div> <!-- Перенос на другую строку -->
+										</div>
+										<!-- Поле Email -->
+										<div class="email">
+										<label for="email">Email</label>
+										<div class="cleaner h10"></div> <!-- Перенос на другую строку -->
+										<input type="text" id="email" class="input-field email" name="email" value="Куда мне писать">
+										<div class="cleaner h10"></div> <!-- Перенос на другую строку -->
+										</div>
+										<!-- Поле ввода сообщения -->
+										<label>Сообщение</label>
+										<div class="cleaner h10"></div> <!-- Перенос на другую строку -->
+										<textarea cols="40" rows="5" name="text" >Кратко в чем суть</textarea>
+										<div class="cleaner h10"></div> <!-- Перенос на другую строку -->
+										
+										<div>
+											<button type="submit" class="submit-btn">Отправить</button>
+										</div>
+										<div>
+											<button type="reset" class="reset-btn">Очистить</button>
 										</div>
 
-										<!-- Форма для модального окна -->
-										<a href="#" class="overlay" id="add-form"></a>
-											<div class="popup">
-												<div class="header-popup">
-													Добавление проекта
-													<a href="#close" class="close">
-														<img src="img/close.png" alt="Закрыть" class="icon-close">
-													</a>
-												</div>
-												<div class="name-list">	
-													<label for="name-project">Название проекта</label><br/>
-													<input type="text" id="name-project" value="Введите название проекта">
-												</div>
-												
-											</div>
-
-									</li>
-								</ul>
-
-								
-								<!-- Описание -->
-									
-									<!-- Описание -конец -->
-
+									</form>
+								</div>
 							</div>
 						</section>
 						
-						
-
 					</div>
-				<!-- Контент описания профиля -конец -->
+				<!-- Контакты -конец -->
 			</div>
 			<!-- Контент -конец -->
 		</div>
