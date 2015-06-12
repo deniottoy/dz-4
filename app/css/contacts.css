@@ -1,242 +1,215 @@
-/* Основной контент */
 .contacts-content {
-	background: #eff3f7;
-	border-radius: 4px;
-	margin-bottom: 26px;
-	font-family: 'fira_sansultralight';
-	height: 100%;
-
+  background: #eff3f7;
+  margin-bottom: 26px;
+  font-family: "fira_sansultralight";
+  height: 100%;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 
 .contacts-content .contacts-header {
-	font-size: 27px;
-	color: #fff;
-	border-bottom: 17px solid #67dffa;
-	padding:42px 23px;
-	background: #48cbe8;
-	text-align: center;
+  font-size: 27px;
+  color: #fff;
+  border-bottom: 16px solid #67dffa;
+  padding: 40px 8px;
+  background: #48cbe8;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-top-left-radius: 4px;
+  -ms-border-top-left-radius: 4px;
+  -o-border-top-left-radius: 4px;
+  -moz-border-top-right-radius: 4px;
+  -ms-border-top-right-radius: 4px;
+  -o-border-top-right-radius: 4px;
 }
 
 .contacts-body {
-	padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
-.contact-form{ 
-	padding: 0; 
-	width: 403px;
-	margin: 40px auto 190px auto ;
+.contact-form {
+  padding: 0;
+  width: 403px;
+  margin: 40px auto 190px auto;
 }
 
-.contact-form form .name {
-	float: left;
-	margin-bottom: 8px;
+.contact-form .name {
+  float: left;
+  margin-bottom: 8px;
+  color: #959aa8;
+  font-size: 19px;
 }
 
-.contact-form form .email {
-	float: right;
-	margin-bottom: 8px;
-}
-
-.contact-form form .input-field {
-	width: 174px; 
-	padding: 11px 8px; 
-	color: #48cbe8;  
-	background: #fff; 
-	border: 1px solid #48cbe8;
-	font-size: 13px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	float: right;
-}
-
-.contact-form form textarea {
-	padding: 11px 8px; 
-	color: #48cbe8;  
-	background: #fff; 
-	border: 1px solid #48cbe8;
-	font-size: 13px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	width: 388px;
+.contact-form .email {
+  float: right;
+  margin-bottom: 8px;
+  color: #959aa8;
+  font-size: 19px;
 }
 
 .contact-form label {
-	color: #959aa8;
-	font-size: 19px;
+  margin-bottom: 6px;
+  color: #959aa8;
+  font-size: 19px;
 }
 
-.contact-form form .submit-btn {  
-	-moz-border-radius: 5px;
-	font-size: 12px;
-	-webkit-border-radius:5px;
-	float:left;
-	padding:2px 20px;
-	font-family:'fira_sansbook';
-	margin-top:34px;
-	color:#fff;
-	background-color:#48cbe8;
-	border-radius:5px;
-	border-bottom:4px solid #3ba8c0;
+.contact-form .form-group.captcha-wrap label.label-capcha {
+  margin-bottom: 8px;
+  color: #959aa8;
+  font-size: 17px;
 }
 
-/* Основной контент */
-.contacts-content {
-	background: #eff3f7;
-	border-radius: 4px;
-	margin-bottom: 26px;
-	font-family: 'fira_sansultralight';
-	height: 100%;
-
+.contact-form .input-field {
+  width: 170px;
+  padding: 9px 8px;
+  color: #48cbe8;
+  background: #fff;
+  border: 1px solid #48cbe8;
+  font-size: 13px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  float: right;
 }
 
-.contacts-content .contacts-header {
-	font-size: 27px;
-	color: #fff;
-	border-bottom: 17px solid #67dffa;
-	padding:42px 23px;
-	background: #48cbe8;
-	text-align: center;
-	font-size: 27px;
-
+input[type="text"]:-moz-placeholder, input[type="text"]::-moz-placeholder, input[type="text"]:-ms-input-placeholder, input[type="text"]::-webkit-input-placeholder, textarea:-moz-placeholder, textarea::-moz-placeholder, textarea:-ms-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #48cbe8;
 }
 
-.contacts-body {
-	padding-bottom: 40px;
+input[type="text"]:focus:-moz-placeholder, input[type="text"]:focus::-moz-placeholder, input[type="text"]:focus:-ms-input-placeholder, input[type="text"]:focus::-webkit-input-placeholder, textarea:focus:-moz-placeholder, textarea:focus::-moz-placeholder, textarea:focus:-ms-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: transparent;
 }
 
-.contact-form{ 
-	padding: 0; 
-	width: 403px;
-	margin: 40px auto 190px auto ;
+.contact-form textarea {
+  padding: 11px 8px;
+  color: #959aa8;
+  font-size: 13px;
+  background: #fff;
+  border: 1px solid #48cbe8;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  width: 388px;
 }
 
-.contact-form form .name {
-	float: left;
-	margin-bottom: 8px;
+.contact-form .submit-btn {
+  font-size: 19px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  float: left;
+  padding: 2px 20px;
+  font-family: "fira_sansbook";
+  margin-top: 34px;
+  color: #fff;
+  background-color: #48cbe8;
+  border-bottom: 4px solid #3ba8c0;
 }
 
-.contact-form form .email {
-	float: right;
-	margin-bottom: 8px;
+.contact-form .reset-btn {
+  background-color: #849db5;
+  border-bottom: 4px solid #687b8f;
+  font-size: 19px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  float: right;
+  padding: 2px 25px;
+  font-family: "fira_sansbook";
+  margin-top: 34px;
+  color: #fff;
 }
 
-.contact-form form .input-field {
-	width: 174px; 
-	padding: 11px 8px; 
-	color: #48cbe8;  
-	background: #fff; 
-	border: 1px solid #48cbe8;
-	font-size: 13px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	float: right;
+.contact-form .captcha-wrap {
+  margin: 0 auto 31px;
 }
 
-.contact-form form textarea {
-	padding: 11px 8px; 
-	color: #48cbe8;  
-	background: #fff; 
-	border: 1px solid #48cbe8;
-	font-size: 13px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	width: 388px;
+.contact-form .input-captcha-field {
+  height: 32px;
+  width: 170px;
+  margin-top: 21px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border: 1px solid #48cbe8;
+  font-size: 13px;
+  float: right;
 }
 
-.contact-form label {
-	color: #959aa8;
-	font-size: 19px;
+.contact-form .capcha-cod {
+  width: 180px;
+  height: 79px;
+  float: left;
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border: 1px solid #48cbe8;
 }
 
-.contact-form form .submit-btn {  
-	-moz-border-radius: 5px;
-	font-size: 19px;
-	-webkit-border-radius:5px;
-	float:left;
-	padding:2px 20px;
-	font-family:'fira_sansbook';
-	margin-top:34px;
-	color:#fff;
-	background-color:#48cbe8;
-	border-radius:5px;
-	border-bottom:4px solid #3ba8c0;
+.server-mes {
+  border-radius: 4px;
+  border: 1px solid;
+  font-size: 12px;
+  width: 100%;
+  padding: 6px 12px;
+  margin-bottom: 6px;
+  display: none;
 }
 
-.contact-form form .reset-btn { 
-	background-color: #849db5; 
-	border-bottom: 4px solid #687b8f;
-	font-size: 19px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	float:right;
-	font-size: 19px;
-	padding: 2px 25px;
-	font-family: 'fira_sansbook';
-	margin-top: 34px;
-	color:#fff;
-}		
-
-
-
-
-/* Основная информация -конец */
-
-.contacts-content:before, .clearfix:before,
-.contacts-content:after, .clearfix:after {
-	content: " ";
-	display: table;
+.error-mes {
+  background-color: #fad2d1;
+  border-color: #f97e76;
+  color: #f97e76;
 }
 
-.contacts-content:after, .clearfix:after {
-	clear: both; /* Отменяет обтекание элемента одновременно с правого и левого края. Это значение рекомендуется устанавливать, когда требуется снять обтекание элемента, но неизвестно точно с какой стороны. */ 
+.success-mes {
+  background-color: #b8e1ce;
+  border-color: #49bb7b;
+  color: #49bb7b;
 }
 
+.has-error{
+  background-color: #fad2d1 !important;
+  border-color: #f97e76 !important;
+}
+.has-success{
+  background-color: none;
+  border-color: #3c763d;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Основная информация -конец */
-
-.contacts-content:before, .clearfix:before,
-.contacts-content:after, .clearfix:after {
-	content: " ";
-	display: table;
+.contacts-content:before, .clearfix:before, .contacts-content:after, .clearfix:after {
+  content: " ";
+  display: table;
 }
 
 .contacts-content:after, .clearfix:after {
-	clear: both; /* Отменяет обтекание элемента одновременно с правого и левого края. Это значение рекомендуется устанавливать, когда требуется снять обтекание элемента, но неизвестно точно с какой стороны. */ 
+  clear: both;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.qtip-mystile{
+  background-color: #f97e76;
+  border-color: #f97e76;
+  font-family: 'fira_sansbook';
+  color: #ffffff;
+  font-size: 13px;
+}
 

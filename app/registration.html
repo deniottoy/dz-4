@@ -5,9 +5,16 @@
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="css/reg.css">
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<!-- end css	-->
+	<!-- font css -->
 	<link rel="stylesheet" type="text/css" href="fonts/Fira/fira.css">
 	<link rel="stylesheet" type="text/css" href="fonts/Proxima-Nova/Proximanova.css">
+	<!-- end font css -->
+	<!-- bower -->
 	<link rel="stylesheet" type="text/css" href="bower/normalize.css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="bower/modernizer/modernizr.js">
+	<link rel="stylesheet" type="text/css" href="bower/jquery-placeholder/jquery.placeholder.js">
+	<!-- end bower -->
 </head>
 <body>
 	<!-- [if lt IE 7] >
@@ -23,18 +30,18 @@
 		 	<div class="login">
 				<label for="login">Логин</label>
 					<div class="cleaner h10"></div> <!-- Перенос на другую строку -->
-					<input type="text" id="author" class="input-field login" name="login" value="Введите логин">
+					<input type="text" id="login" class="input-field login" name="login" size="15" maxlength="15" value="Введите логин">
 					<div class="cleaner h10"></div> <!-- Перенос на другую строку -->
 			</div>
 			<!-- Поле Email -->
 			<div class="password">
 				<label for="password">Пароль</label>
 					<div class="cleaner h10"></div> <!-- Перенос на другую строку -->
-					<input type="text" id="email" class="input-field password" name="password" value="Введите пароль">
+					<input type="text" id="password" class="input-field password" name="password" size="15" maxlength="15" value="Введите пароль">
 					<div class="cleaner h10"></div> <!-- Перенос на другую строку -->
 			</div>
 			<div>
-					<button type="enter" class="enter-btn"/>Вход</button>
+					<input type="submit" class="enter-btn" value="Вход">
 			</div>
 
 		 </form>

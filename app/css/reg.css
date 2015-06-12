@@ -1,136 +1,122 @@
-
 body {
-	background-image: url(../img/bg.jpg);
-	background-repeat: no-repeat;
-	margin:0;
-	padding: 0;
-	height: 95%;
-	font-family: 'fira_sansultralight', Verdana, sans-serif;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 95%;
+  font-family: "fira_sansultralight",Verdana,sans-serif;
 }
 
 html {
-	height: 95%;  /* обязательная высота */
+  height: 95%;
 }
 
 .reg-ac-form {
-	position: relative;
-	background: #eff3f7;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	overflow: hidden;
-	font-family: 'fira_sansultralight';
-	width: 540px;
-	margin:5% auto 0 auto;
-	-webkit-box-shadow: 0 4px 7px rgba(13,16,7,.29);
-	-moz-box-shadow: 0 4px 7px rgba(13,16,7,.29);
-	box-shadow: 0 4px 7px rgba(13,16,7,.29);
+  position: relative;
+  background: #eff3f7;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  font-family: "fira_sansultralight";
+  width: 540px;
+  margin: 5% auto 0 auto;
+  -webkit-box-shadow: 0 4px 7px rgba(13,16,7,.29);
+  -moz-box-shadow: 0 4px 7px rgba(13,16,7,.29);
+  box-shadow: 0 4px 7px rgba(13,16,7,.29);
 }
 
 .reg-ac-form .header-reg-form {
-	font-size: 36px;
-	color: #fff;
-	border-bottom: 15px solid #67dffa;
-	padding-top:19px;
-	background: #48cbe8;
-	text-align: center;
-	font-family:'fira_sansbook';
-	height: 72px;
+  font-size: 36px;
+  color: #fff;
+  border-bottom: 15px solid #67dffa;
+  padding-top: 19px;
+  background: #48cbe8;
+  text-align: center;
+  font-family: "fira_sansbook";
+  height: 72px;
 }
 
 .reg-ac-form .reg-form {
-	width: 386px;
-	padding: 0;
-	margin: 14px auto;
+  width: 386px;
+  padding: 0;
+  margin: 14px auto;
 }
 
 .reg-ac-form .reg-form .login, .reg-ac-form .reg-form .password {
-	margin-bottom: 14px;
-	text-align: center;
+  margin-bottom: 14px;
+  text-align: center;
 }
 
-.reg-ac-form .reg-form  label{
-	color: #959aa8;
-	font-size: 32px;
+.reg-ac-form .reg-form label {
+  color: #959aa8;
+  font-size: 32px;
 }
 
 .reg-ac-form .reg-form .input-field {
-	width: 386px; 
-	padding: 11px 8px; 
-	color: #48cbe8;  
-	background: #fff; 
-	border: 1px solid #48cbe8;
-	font-size: 16px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	float: right;
-	text-align: left;
+  width: 386px;
+  padding: 11px 8px;
+  color: #48cbe8;
+  background: #fff;
+  border: 1px solid #48cbe8;
+  font-size: 16px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  float: right;
+  text-align: left;
 }
 
-.reg-ac-form .reg-form button.enter-btn {
-	-moz-border-radius: 5px;
-	font-size: 32px;
-	-webkit-border-radius:5px;
-	float:left;
-	padding:2px 63px;
-	font-family:'fira_sansbook';
-	margin:20px 92px;
-	color:#fff;
-	background-color:#48cbe8;
-	border-radius:5px;
-	border-bottom:4px solid #3ba8c0;
-	display: block;
+.reg-ac-form .reg-form .enter-btn {
+  -moz-border-radius: 5px;
+  font-size: 32px;
+  -webkit-border-radius: 5px;
+  float: left;
+  padding: 2px 63px;
+  font-family: "fira_sansbook";
+  margin: 20px 92px;
+  color: #fff;
+  background-color: #48cbe8;
+  border-radius: 5px;
+  border-bottom: 4px solid #3ba8c0;
+  display: block;
 }
 
-
-
-/* Футер */
-/* Прибить футер */
 .wrapper {
-	position: relative;
-	min-height: 100%;
-	height:auto!important; /* позволяет повысить приоритет стиля */
-	overflow: hidden; /* управляет отображением содержания блочного элемента, если оно целиком не помещается и выходит за область заданных размеров */
+  position: relative;
+  min-height: 100%;
+  height: auto!important;
+  overflow: hidden;
 }
+
 .wrapper:after {
-	content: " ";
-	display: block;
+  content: " ";
+  display: block;
 }
 
 .page-footer {
-	background: #eff3f7 url(../img/line.png) top center no-repeat;
-	width: 100%;
-	/*height: 80px;
-*/}
+  background: #eff3f7 url(../img/line.png) top center no-repeat;
+  width: 100%;
+}
 
 .page-footer .container {
-	position: relative;
-	padding-top: 23px;
+  position: relative;
+  padding-top: 23px;
 }
 
 .copyright {
-	margin: 0 180px 20px 180px;
-	font-size: 13px;
-	padding-top: 7px;
-	padding-bottom: 7px; 
-	text-align: center;
-
+  margin: 0 180px 20px 180px;
+  font-size: 13px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: center;
 }
 
-/*clearfix - очищение float*/
-.container:before, .clearfix:before,
-.container:after, .clearfix:after {
-	content: " ";
-	display: table;
+.container:before, .clearfix:before, .container:after, .clearfix:after {
+  content: " ";
+  display: table;
 }
 
 .container:after, .clearfix:after {
-	clear: both; /* Отменяет обтекание элемента одновременно с правого и левого края. Это значение рекомендуется устанавливать, когда требуется снять обтекание элемента, но неизвестно точно с какой стороны. */ 
+  clear: both;
 }
-
-
-
-
-
-

@@ -7,9 +7,16 @@
 	<link rel="stylesheet" type="text/css" href="css/page-two.css">
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
 	<link rel="stylesheet" type="text/css" href="css/modal.css">
+	<!-- end css	-->
+	<!-- font css -->
 	<link rel="stylesheet" type="text/css" href="fonts/Fira/fira.css">
 	<link rel="stylesheet" type="text/css" href="fonts/Proxima-Nova/Proximanova.css">
+	<!-- end font css -->
+	<!-- bower -->
 	<link rel="stylesheet" type="text/css" href="bower/normalize.css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="bower/modernizer/modernizr.js">
+	<link rel="stylesheet" type="text/css" href="bower/jquery-placeholder/jquery.placeholder.js">
+	<!-- end bower -->
 </head>
 <body>
 	<!-- [if lt IE 7] >
@@ -135,40 +142,14 @@
 										<div class="project-gallery-add">
 											<a href="#add-form" class="add-popup"><p>Добавить проект</p></a>
 										</div>
-
-										<!-- Форма для модального окна -->
-										<a href="#" class="overlay" id="add-form"></a>
-											<div class="popup">
-												<div class="header-popup">
-													Добавление проекта
-													<a href="#close" class="close">
-														<img src="img/close.png" alt="Закрыть" class="icon-close">
-													</a>
-												</div>
-												<div class="name-list">	
-													<label for="name-project">Название проекта</label><br/>
-													<input type="text" id="name-project" value="Введите название проекта">
-												</div>
-												
-											</div>
-
 									</li>
 								</ul>
-
-								
-								<!-- Описание -->
-									
-									<!-- Описание -конец -->
-
 							</div>
 						</section>
-						
-						
-
 					</div>
-				<!-- Контент описания профиля -конец -->
+				
 			</div>
-			<!-- Контент -конец -->
+			
 		</div>
 
 	</div>
@@ -185,8 +166,55 @@
 		</div>
 	</footer>
 
-<script type="text/javascript" src="bower/jquery/dist/jquery.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+	<!-- Модальное окно -->
+
+		<div class="modal-form">
+			<div href="#" class="overlay" id="add-form"></div>
+				<div class="popup">
+					<div class="header-popup">Добавление проекта
+						<a href="#close" class="close">
+							<img src="img/close.png" alt="Закрыть" class="icon-close">
+						</a>
+					</div>
+					<!-- Вывод сообщений с сервера -->
+			        	<div class="server-mes error-mes"></div>
+						<div class="server-mes success-mes"></div>
+					<div class="form-group">	
+						<label for="name-project">Название проекта</label>
+						<input type="text" class="name-project" name="name-project" id="name-project" placeholder="Введите название проекта" qtip-content="Вы не ввели название">
+					</div>
+						<div class="form-group">
+							<div class="fileupload-wrapper" id="uploadfile">
+								<label class="url-project">Картинка проекта</label>
+									<label class="fileupload-lable">
+									<input id="fileupload" class="fileupload" type="file" name="files[]">
+									<input id="fileurl" type="hidden" name="fileurl">
+								</label>
+									<input id="filename" type="text" class="input" name="filename" placeholder="Загрузите изображение" disabled qtip-content="Вы не выбрали изображение">
+							</div>
+						</div>
+						<div class="form-group">	
+							<label for="url-project">URL проекта</label>
+							<input type="text" class="url-project" name="url-project" id="url-project" placeholder="Добавьте ссылку" qtip-content="Ссылка на проект">
+						</div>
+						<div class="form-group">
+							<label for="desc-project" class="label">Описание</label>
+							<textarea name="text" id="desc-project" class="textarea" rows="10" colums="40" placeholder="Пара слов о вашем проекте" qtip-content="Описание проекта обязательно"></textarea>
+						</div>
+						<div class="btn">
+              				<button type="submit" class="submit-btn">Добавить</button>
+            			</div> 
+					</div>
+		</div>
+		<!-- Модальное окно - конец -->
+
+<script src="bower/jquery/dist/jquery.js"></script>
+<script src="js/main.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/validation.js"></script>
+
+<script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
+<script src="bower/qtip2/jquery.qtip.js"></script>
 	
 </body>
 </html>

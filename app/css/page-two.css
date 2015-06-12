@@ -1,223 +1,179 @@
-/* Основной контент */
 .project {
-	background: #eff3f7;
-	border-radius: 4px;
-	margin-bottom: 26px;
-	height: 839px;
-
+  background: #eff3f7;
+  border-radius: 4px;
+  margin-bottom: 26px;
+  height: 839px;
 }
 
 .project .project-header {
-	font-size: 27px;
-	color: #3ba8c0;
-	border-bottom: 2px solid #3ba8c0;
-	margin: 0 0 23px 0;
-	padding:13px 23px;
-	display: inline-block;
-
+  font-size: 27px;
+  color: #3ba8c0;
+  border-bottom: 2px solid #3ba8c0;
+  margin: 0 0 23px 0;
+  padding: 13px 23px;
+  display: inline-block;
 }
 
 .project-body {
-	padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
-/* Галерея проектов */
-
 .project .project-gallery-list {
-	margin-left: 25px;
-	padding: 0;	
+  margin-left: 25px;
+  padding: 0;
 }
 
 .project .project-gallery-item {
-	list-style: none;
-	font-family: 'fira_sanslight';
-	color: #4a545d;
-	font-size: 15px;
-	width: 181px;
-	display: inline-block;
-	float: left;
-	margin-right: 25px;
-	margin-bottom: 40px;
-	text-align: center;
-	position: relative;
+  list-style: none;
+  font-family: "fira_sanslight";
+  color: #4a545d;
+  font-size: 15px;
+  width: 181px;
+  display: inline-block;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 40px;
+  text-align: center;
+  position: relative;
 }
 
 .project .project-gallery-item:last-child {
-	margin-bottom: 0;
-} 
+  margin-bottom: 0;
+}
 
 .project-gallery-pic {
-	width: 181px;
-	height: 127px;
+  width: 181px;
+  height: 127px;
 }
 
-/* Картинка */
-
- img.project-gallery-pic{
-	border-radius: 6px;
-	border: 2px solid #3ba8c0;
-	display: block;	
+img.project-gallery-pic {
+  border-radius: 6px;
+  border: 2px solid #3ba8c0;
+  display: block;
 }
 
- .project-gallery-pic:hover{
-	border-radius: 6px;
-	border: 2px solid #3ba8c0;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	background: #000;
+.project-gallery-pic:hover {
+  border-radius: 6px;
+  border: 2px solid #3ba8c0;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  background: #000;
 }
-
-/* Ссылка сайта */
 
 .project .project-site {
-	font-family:'fira_sanslight_italic';
-	font-size: 13px; 
-	color:#3ba8c0;
-	padding:0;
-	text-decoration: none;
+  font-family: "fira_sanslight_italic";
+  font-size: 13px;
+  color: #3ba8c0;
+  padding: 0;
+  text-decoration: none;
 }
 
-/* Текст */
-
-.project .project-text  {
-	display: block;
-	font-size: 15px;
-	line-height: 1.2;
-	padding-top: 5px;
-	margin: 0;
+.project .project-text {
+  display: block;
+  font-size: 15px;
+  line-height: 1.2;
+  padding-top: 5px;
+  margin: 0;
 }
-
-/* Добавление проекта */
 
 a.add-project, a.add-popup {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 li div.project-gallery-add p {
-	font-size: 13px;
-	padding-top: 62px;
-	color: #3ba8c0;
-	text-decoration: none;
+  font-size: 13px;
+  padding-top: 62px;
+  color: #3ba8c0;
+  text-decoration: none;
 }
 
 li div.project-gallery-add {
-	width: 181px;
-	height: 127px;
-	border-radius: 6px;
-	border: 2px dashed #3ba8c0;
-	opacity: 0.75; 
-	margin-bottom: 8px;
-	position: relative;
-	background: #ecfbff url(../img/add-set.png) top no-repeat;
-	background-position: 76px 34px;
-	text-decoration: none;
+  width: 181px;
+  height: 127px;
+  border-radius: 6px;
+  border: 2px dashed #3ba8c0;
+  opacity: .75;
+  margin-bottom: 8px;
+  position: relative;
+  background: #ecfbff url(../img/add-set.png) top no-repeat;
+  background-position: 76px 34px;
+  text-decoration: none;
 }
 
- li:hover div.project-gallery-add p {
-	font-size: 13px;
-	padding-top: 62px;
-	color: #3ba8c0;
-	text-decoration: none;
+li:hover div.project-gallery-add p {
+  font-size: 13px;
+  padding-top: 62px;
+  color: #3ba8c0;
+  text-decoration: none;
 }
 
 li:hover div.project-gallery-add {
-	width: 181px;
-	height: 127px;
-	border-radius: 6px;
-	border: 2px solid #3ba8c0;
-	opacity: 0.75; 
-	margin-bottom: 8px;
-	position: relative;
-	background: #ecfbff url(../img/add-set.png) top no-repeat;
-	background-position: 76px 34px;
-	cursor: pointer;
-	text-decoration: none;
+  width: 181px;
+  height: 127px;
+  border-radius: 6px;
+  border: 2px solid #3ba8c0;
+  opacity: .75;
+  margin-bottom: 8px;
+  position: relative;
+  background: #ecfbff url(../img/add-set.png) top no-repeat;
+  background-position: 76px 34px;
+  cursor: pointer;
+  text-decoration: none;
 }
-
-/* Появление прозрачного фона с кнопкой */
 
 .pic_button {
-	display:inline-block;
-	font-family: 'fira_sansbook';
-	color: #eff3f7;
-	font-size: 12px;
-	padding:4px 2px;
-	margin:47px 56px;
-	border: 2px solid #eff3f7;
-	float:right;
-	text-align:center;
-	text-decoration:none!important;
-	vertical-align:middle;zoom:1;
-	-webkit-border-radius:6px;
-	-moz-border-radius:5px;
-	border-radius:6px;
-	-webkit-box-shadow:0 0 0 rgba(1,108,164,.75);
-	-moz-box-shadow:0 0 0 rgba(1,108,164,.75);
-	box-shadow:0 0 0 rgba(1,108,164,.75);
+  display: inline-block;
+  font-family: "fira_sansbook";
+  color: #eff3f7;
+  font-size: 12px;
+  padding: 4px 2px;
+  margin: 47px 56px;
+  border: 2px solid #eff3f7;
+  float: right;
+  text-align: center;
+  text-decoration: none!important;
+  vertical-align: middle;
+  zoom: 1;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 5px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 0 0 rgba(1,108,164,.75);
+  -moz-box-shadow: 0 0 0 rgba(1,108,164,.75);
+  box-shadow: 0 0 0 rgba(1,108,164,.75);
 }
 
-.pic_button:hover{
-	border:solid 2px #eff3f7;
-	color: #eff3f7;
-	cursor: pointer;
+.pic_button:hover {
+  border: solid 2px #eff3f7;
+  color: #eff3f7;
+  cursor: pointer;
 }
 
 .project-gallery-list li div.caption {
-	display:block;
-	background:rgba(1,108,164,.75);
-	color:#eff3f7;
-	font-size:12px;
-	position:absolute;
-	overflow:hidden;
-	opacity:0;
-	filter:alpha(opacity=0);
-	padding:0;
-	border-radius: 6px;
-	border: 2px solid #3ba8c0;
+  display: block;
+  background: rgba(1,108,164,.75);
+  color: #eff3f7;
+  font-size: 12px;
+  position: absolute;
+  overflow: hidden;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  padding: 0;
+  border-radius: 6px;
+  border: 2px solid #3ba8c0;
 }
 
 .project-gallery-list li:hover div.caption {
-	width:181px;
-	height:127px;
-	opacity:1;
-	cursor: pointer;
+  width: 181px;
+  height: 127px;
+  opacity: 1;
+  cursor: pointer;
 }
 
-
-
-
-
-	
-
-
-/* Очищение float */
-
-.project:before, .clearfix:before,
-.project:after, .clearfix:after {
-	content: " ";
-	display: table;
+.project:before, .clearfix:before, .project:after, .clearfix:after {
+  content: " ";
+  display: table;
 }
 
 .project:after, .clearfix:after {
-	clear: both; /* Отменяет обтекание элемента одновременно с правого и левого края. Это значение рекомендуется устанавливать, когда требуется снять обтекание элемента, но неизвестно точно с какой стороны. */ 
+  clear: both;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

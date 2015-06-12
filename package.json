@@ -2,6 +2,7 @@
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-connect": "^2.2.0",
+    "gulp-modernizr": "^1.0.0-alpha",
     "opn": "^1.0.1"
   }
 }

@@ -1,235 +1,223 @@
-
 body {
-	background-image: url(../img/bg.jpg);
-	background-repeat: repeat;
-	margin:0;
-	padding:0;
-	height: 100%;
-	font-family: 'fira_sansultralight', Verdana, sans-serif;
+  background-image: url(../img/bg.jpg);
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "fira_sansultralight",Verdana,sans-serif;
 }
 
 html {
-	height: 100%;  /* обязательная высота */
+  height: 100%;
 }
 
-/* Хедер */
-
 .header {
-	height: 119px;
-	background: #eff3f7 url(../img/line.png) bottom center no-repeat;
-	position: relative;
-	margin-bottom: 39px;
-	
+  height: 119px;
+  background: #eff3f7 url(../img/line.png) bottom center no-repeat;
+  position: relative;
+  margin-bottom: 39px;
 }
 
 .cont-header {
-	min-width: 960px;
-	max-width: 1200px;
-	position: relative;
-	margin: 0 auto;
-}
-.cont-header .header-logo {
-	position: absolute;
-	top: 36px;
-	left: 0;
-}
-.cont-header .header-logo-text {
-	position: absolute;
-	left: -99999px;
+  min-width: 960px;
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
 }
 
-/* Блок социальных иконок */
+.cont-header .header-logo {
+  position: absolute;
+  top: 36px;
+  left: 0;
+}
+
+.cont-header .header-logo-text {
+  position: absolute;
+  left: -99999px;
+}
 
 .cont-header .soc {
-	position: absolute;
-	right: 0;
-	top: 36px;
+  position: absolute;
+  right: 0;
+  top: 36px;
 }
 
 .soc {
-	margin: 0;
-	padding: 0;
-	min-width: 260px;
+  margin: 0;
+  padding: 0;
+  min-width: 260px;
 }
 
 .soc .soc-item {
-	height: 47px;
-	width: 47px;
-	list-style: none;
-	margin-left: 19px;
-	display: inline-block;
+  height: 47px;
+  width: 47px;
+  list-style: none;
+  margin-left: 19px;
+  display: inline-block;
 }
 
 .soc .soc-item:first-child {
-	margin-left: 0;
+  margin-left: 0;
 }
 
 .soc .soc-link {
-	display: block;
-	height: 100%;
-	width: 100%;
-	text-indent: -9999px;
-	background: url(../img/socialbut.png) no-repeat;
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-indent: -9999px;
+  background: url(../img/socialbut.png) no-repeat;
 }
-.soc .soc-link.vk { background-position: 0 0;}
-.soc .soc-link.tw { background-position: -71px 0;}
-.soc .soc-link.fb { background-position: -142px 0;}
-.soc .soc-link.gh { background-position: -213px 0;}
-.soc .soc-link:hover {background-position-y: -53px;} /* отрицательное значение нижнего блока социконок от верхней границы до верхней hover */
 
-/* Хедер - конец */
+.soc .soc-link.vk {
+  background-position: 0 0;
+}
 
-/* Сайдбар */
+.soc .soc-link.tw {
+  background-position: -71px 0;
+}
+
+.soc .soc-link.fb {
+  background-position: -142px 0;
+}
+
+.soc .soc-link.gh {
+  background-position: -213px 0;
+}
+
+.soc .soc-link:hover {
+  background-position-y: -53px;
+}
+
 .container {
-	width: 960px;
-	margin: 0 auto;
+  width: 960px;
+  margin: 0 auto;
 }
 
 .sidebar {
-	width: 250px;
-	float:left;
+  width: 250px;
+  float: left;
 }
 
 .main-cont {
-	width: 650px;
-	float: right;
+  width: 650px;
+  float: right;
 }
 
-
-
-/* Контакты */
-
 .contacts {
-    font-style: normal;
-	font-family: 'firasans-book';
-	background: #3ba8c0;
-	overflow:hidden;
-	border-radius: 4px;
-	margin-bottom: 20px;
-	color: white;
+  font-style: normal;
+  font-family: firasans-book;
+  background: #3ba8c0;
+  overflow: hidden;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  color: #fff;
 }
 
 .contact-header {
-	background: #3ba8c0;
-	border-radius: 4px 4px 0 0;
-	padding: 8px 19px 2px 19px;
+  background: #3ba8c0;
+  border-radius: 4px 4px 0 0;
+  padding: 8px 19px 2px 19px;
 }
 
 .header-inner-text {
-	font-size: 20px;
-	margin: 0;
-	display: block;
+  font-size: 20px;
+  margin: 0;
+  display: block;
 }
 
 .contacts-list {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .contact-link.mail-link, .contact-link.phone-link, .contact-link.skype-link {
-	display: block;
-	text-decoration: none;
-	line-height: 1.3em;
-	color: #fff;
+  display: block;
+  text-decoration: none;
+  line-height: 1.3em;
+  color: #fff;
 }
 
 .contacts-list .contacts-item.mail {
-	padding: 9px 0 9px 60px;
-	background: #41b9d4 url(../img/email.png) center no-repeat;
-	background-position-x: 30px; 
+  padding: 9px 0 9px 60px;
+  background: #41b9d4 url(../img/email.png) center no-repeat;
+  background-position-x: 30px;
 }
 
-.contacts-list .contacts-item.phone{
-	padding: 9px 0 9px 60px;
-	background: #48cbe8 url(../img/phone.png) center no-repeat;
-	background-position-x: 30px; 
+.contacts-list .contacts-item.phone {
+  padding: 9px 0 9px 60px;
+  background: #48cbe8 url(../img/phone.png) center no-repeat;
+  background-position-x: 30px;
 }
 
-.contacts-list .contacts-item.skype{
-	padding: 9px 0 9px 60px;
-	background: #51daf8 url(../img/skype.png) center no-repeat;
-	background-position-x: 30px;
-	border-radius: 0 0 4px 4px;  
+.contacts-list .contacts-item.skype {
+  padding: 9px 0 9px 60px;
+  background: #51daf8 url(../img/skype.png) center no-repeat;
+  background-position-x: 30px;
+  border-radius: 0 0 4px 4px;
 }
 
-.contact-link.mail-link:hover,
-.contact-link.phone-link:hover,
-.contact-link.skype-link:hover {
-	display: block;
-	line-height: 1.3em;
-	text-decoration: underline;
-	color: #fff;
+.contact-link.mail-link:hover, .contact-link.phone-link:hover, .contact-link.skype-link:hover {
+  display: block;
+  line-height: 1.3em;
+  text-decoration: underline;
+  color: #fff;
 }
 
-/* Конец контакты */
-
-
-/* Футер */
-/* Прибить футер */
 .wrapper {
-	position: relative;
-	min-height: 100%;
-	height:auto!important; /* позволяет повысить приоритет стиля */
-	overflow: hidden; /* управляет отображением содержания блочного элемента, если оно целиком не помещается и выходит за область заданных размеров */
+  position: relative;
+  min-height: 100%;
+  height: auto!important;
+  overflow: hidden;
 }
+
 .wrapper:after {
-	content: " ";
-	display: block;
+  content: " ";
+  display: block;
 }
 
 .page-footer {
-	background: #eff3f7 url(../img/line.png) top center no-repeat;
-	width: 100%;
-	/*height: 80px;
-*/}
+  background: #eff3f7 url(../img/line.png) top center no-repeat;
+  width: 100%;
+}
 
 .page-footer .container {
-	position: relative;
-	padding-top: 23px;
+  position: relative;
+  padding-top: 23px;
 }
 
 .copyright {
-	margin: 0 180px;
-	font-size: 13px;
-	padding-top: 7px;
-	text-align: center;
-
+  margin: 0 180px;
+  font-size: 13px;
+  padding-top: 7px;
+  text-align: center;
 }
 
 .lock {
-	max-width: 200px;
-	float: left;
-	margin-bottom: 20px;
+  max-width: 200px;
+  float: left;
+  margin-bottom: 20px;
 }
 
 .lock-inner {
-	color: #4a545d;
-	text-decoration: none;
-	padding: 5px 30px;
-	background: url(../img/login.png) 0px center no-repeat;
+  color: #4a545d;
+  text-decoration: none;
+  padding: 5px 30px;
+  background: url(../img/login.png) 0 center no-repeat;
 }
 
 .lock-inner:hover {
-	color: #3ba8c0;
-	text-decoration: none;
-	padding: 5px 30px;
-	background: url(../img/login.png) 0px center no-repeat;
+  color: #3ba8c0;
+  text-decoration: none;
+  padding: 5px 30px;
+  background: url(../img/login.png) 0 center no-repeat;
 }
 
-/*clearfix - очищение float*/
-.container:before, .clearfix:before,
-.container:after, .clearfix:after {
-	content: " ";
-	display: table;
+.container:before, .clearfix:before, .container:after, .clearfix:after {
+  content: " ";
+  display: table;
 }
 
 .container:after, .clearfix:after {
-	clear: both; /* Отменяет обтекание элемента одновременно с правого и левого края. Это значение рекомендуется устанавливать, когда требуется снять обтекание элемента, но неизвестно точно с какой стороны. */ 
+  clear: both;
 }
-
-
-
-
-
-
