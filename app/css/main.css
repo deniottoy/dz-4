@@ -221,3 +221,42 @@ html {
 .container:after, .clearfix:after {
   clear: both;
 }
+
+.server-mes {
+  border-radius: 4px;
+  border: 1px solid;
+  font-size: 12px;
+  width: 100%;
+  padding: 6px 12px;
+  margin-bottom: 6px;
+  display: none;
+}
+
+.error-mes {
+  background-color: #fad2d1;
+  border-color: #f97e76;
+  color: #f97e76;
+}
+
+.success-mes {
+  background-color: #b8e1ce;
+  border-color: #49bb7b;
+  color: #49bb7b;
+}
+
+.has-error{
+  background-color: #fad2d1 !important;
+  border-color: #f97e76 !important;
+}
+.has-success{
+  background-color: none;
+  border-color: #3c763d;
+}
+
+.qtip-mystyle{
+  background-color: #f97e76;
+  border-color: #f97e76;
+  font-family: 'fira_sansbook';
+  color: #ffffff;
+  font-size: 13px;
+}

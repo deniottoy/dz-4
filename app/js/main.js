@@ -7,8 +7,3 @@ $(document).ready(function() {
 				$(this).parent().addClass('selected');
 			});
 	});
-
-// Для старых браузеров подключаем jquery.placeholder
-if (!Modernizr.input.placeholder){
-  $('input, textarea').placeholder();
-} 

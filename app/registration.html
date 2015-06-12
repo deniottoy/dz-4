@@ -28,16 +28,16 @@
 			<div class="header-reg-form">Авторизация</div>
 		 <form action="#" method="post" class="reg-form">
 		 	<div class="login">
-				<label for="login">Логин</label>
+				<label for="login" id="login">Логин</label>
 					<div class="cleaner h10"></div> <!-- Перенос на другую строку -->
-					<input type="text" id="login" class="input-field login" name="login" size="15" maxlength="15" value="Введите логин">
+					<input type="text" id="login" class="input-field login" name="login" size="15" maxlength="15" placeholder="Введите логин" qtip-content="Вы не ввели логин">
 					<div class="cleaner h10"></div> <!-- Перенос на другую строку -->
 			</div>
 			<!-- Поле Email -->
 			<div class="password">
 				<label for="password">Пароль</label>
 					<div class="cleaner h10"></div> <!-- Перенос на другую строку -->
-					<input type="text" id="password" class="input-field password" name="password" size="15" maxlength="15" value="Введите пароль">
+					<input type="text" id="password" class="input-field password" name="password" size="15" maxlength="15" placeholder="Введите пароль" qtip-content="Вы не ввели пароль">
 					<div class="cleaner h10"></div> <!-- Перенос на другую строку -->
 			</div>
 			<div>
@@ -58,6 +58,11 @@
 
 <script type="text/javascript" src="bower/jquery/dist/jquery.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script src="js/validation.js"></script>
+
+ <script src="bower/jquery/dist/jquery.js"></script>
+ <script src="bower/qtip2/jquery.qtip.js"></script>
+ <script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
 	
 </body>
 </html>
