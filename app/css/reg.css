@@ -1,18 +1,12 @@
-body {
-  background-image: url(../img/bg.jpg);
-  background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
-  height: 95%;
-  font-family: "fira_sansultralight",Verdana,sans-serif;
-}
-
-html {
-  height: 95%;
+.reg-container {
+  position: absolute;
+  top: 0;
+  bottom: 80px;
+  right: 0;
+  left: 0;
 }
 
 .reg-ac-form {
-  position: relative;
   background: #eff3f7;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -24,6 +18,7 @@ html {
   -webkit-box-shadow: 0 4px 7px rgba(13,16,7,.29);
   -moz-box-shadow: 0 4px 7px rgba(13,16,7,.29);
   box-shadow: 0 4px 7px rgba(13,16,7,.29);
+  text-align: center;
 }
 
 .reg-ac-form .header-reg-form {
@@ -37,26 +32,25 @@ html {
   height: 72px;
 }
 
-.reg-ac-form .reg-form {
+.reg-ac-form .form {
   width: 386px;
   padding: 0;
   margin: 14px auto;
 }
 
-.reg-ac-form .reg-form .login, .reg-ac-form .reg-form .password {
-  margin-bottom: 14px;
-  text-align: center;
+.reg-ac-form .form .login, .reg-ac-form .form .password {
+  margin-bottom: 14px; 
 }
 
-.reg-ac-form .reg-form label {
+.label {
   color: #959aa8;
   font-size: 32px;
 }
 
-.reg-ac-form .reg-form .input-field {
+.input {
+  color: #48cbe8;
   width: 386px;
   padding: 11px 8px;
-  color: #48cbe8;
   background: #fff;
   border: 1px solid #48cbe8;
   font-size: 16px;
@@ -64,10 +58,9 @@ html {
   -moz-border-radius: 4px;
   border-radius: 4px;
   float: right;
-  text-align: left;
 }
 
-.reg-ac-form .reg-form .enter-btn {
+.btn {
   -moz-border-radius: 5px;
   font-size: 32px;
   -webkit-border-radius: 5px;
@@ -119,4 +112,50 @@ html {
 
 .container:after, .clearfix:after {
   clear: both;
+}
+
+.server-mes{
+  border-radius: 4px;
+  border: 1px solid;
+  font-size: 12px;
+  width: 100%;
+  padding: 6px 12px;
+  margin-bottom: 6px; 
+  display: none;
+}
+.error-mes{ 
+  background-color: #fad2d1;
+  border-color: #f97e76;
+  color: #f97e76; 
+}
+.success-mes{
+  background-color: #b8e1ce;
+  border-color: #49bb7b;
+  color: #49bb7b;
+}
+
+.has-error{
+  background-color: #fad2d1 !important;
+  border-color: #f97e76 !important;
+}
+.has-success{
+  background-color: none;
+  border-color: #3c763d;
+}
+
+/* placeholder */
+*::-webkit-input-placeholder {
+    color: #48cbe8;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #48cbe8;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #48cbe8;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #48cbe8;
 }

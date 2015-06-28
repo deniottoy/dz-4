@@ -1,20 +1,20 @@
-// Модуль связаться со мной 
-var contactMe = (function (){
+// Модуль авторизации
+var loginModule = (function (){
 
 	var init = function(){
-				console.log('Инициализация модуля contactMe');
+				console.log('Инициализация модуля loginModule');
 				_setUpListners();
 			},
 			_setUpListners = function (){
-				$('#contact-form').on('submit', _submitForm); // отправка формы "связаться со мной"
+				$('#login').on('submit', _submitForm); // отправка формы
 			},
 			_submitForm = function (ev) {
-	      console.log('Работаем с формой связи');
+	      console.log('Работаем с формой');
 
 	      ev.preventDefault();
 
 	      var form = $(this),          
-	          url = '/send_mail.php',
+	          url = '/login.php',
 	          defObject = _ajaxForm(form, url);
 
 	      if (defObject) {
@@ -53,4 +53,4 @@ var contactMe = (function (){
 
 })();
 
-contactMe.init();
+loginModule.init();
